@@ -287,11 +287,16 @@ body.dark .search-field i {
     font-weight: 500;
     margin-bottom: 10px;
 }
-
+/*
 .home-content h3 .text {
     color: var(--nav-color);
     display: inline-block;
 }
+*/
+  .home-content h3 span {
+    color: rgb(126, 255, 244);
+  }
+  
 
 .home-content p {
     color: var(--text-color);
@@ -366,7 +371,7 @@ body.dark .search-field i {
 
 /*-------Skills----------*/
 .skills {
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -419,7 +424,7 @@ body.dark .search-field i {
 
 /*-------projects---------*/
 .projects {
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -490,7 +495,7 @@ body.dark .search-field i {
 
 /*--------Achievements---------*/
 .achievements {
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -641,12 +646,17 @@ footer p {
 
 .foot-sci {
     text-align: center;
+    display: flex;
+    justify-content: center;
+
 }
 
 footer a {
     text-decoration: none;
     color: var(--text-color);
+    gap: 20px;
 }
+
 
 /*------MEDIA.QUERY-------*/
 @media (max-width: 790px) {
