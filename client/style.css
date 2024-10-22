@@ -263,11 +263,11 @@ body.dark .search-field i {
 
 .home-bg-image {
     position: absolute;
-    top: 0;
+    top: 10vh;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("homebg.jpghttps://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2Fpremium-vector--886083295421182546%2F&psig=AOvVaw1YBnmxJhx4CT_7TjzIHi3r&ust=1720806038640000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCmlY3En4cDFQAAAAAdAAAAABAE");
+    /* background-image: url("homebg.jpghttps://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2Fpremium-vector--886083295421182546%2F&psig=AOvVaw1YBnmxJhx4CT_7TjzIHi3r&ust=1720806038640000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCmlY3En4cDFQAAAAAdAAAAABAE"); */
     background-size: cover;
     background-position: center;
     opacity: 0.5;
@@ -384,12 +384,12 @@ body.dark .search-field i {
 
 /*-------Skills----------*/
 .skills {
-    padding: 40px 0;
+    padding: 55px 0;
     text-align: center;
 }
 
 .skills h2 {
-    font-size: 30px;
+    font-size: 60px;
     margin-bottom: 20px;
     color: var(--text-color);
 }
@@ -437,12 +437,12 @@ body.dark .search-field i {
 
 /*-------projects---------*/
 .projects {
-    padding: 40px 0;
+    padding: 55px 0;
     text-align: center;
 }
 
 .projects h2 {
-    font-size: 30px;
+    font-size: 60px;
     margin-bottom: 20px;
     color: var(--text-color);
 }
@@ -513,7 +513,7 @@ body.dark .search-field i {
 }
 
 .achievements h2 {
-    font-size: 30px;
+    font-size: 60px;
     margin-bottom: 20px;
     color: var(--text-color);
 }
@@ -670,7 +670,7 @@ footer p {
     text-align: center;
     display: flex;
     justify-content: center;
-
+    gap: 1.5rem;
 }
 
 footer a {
